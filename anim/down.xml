@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
-
+// have the main screen icon in front of the background image slowly drop from in the center
     <translate
 
         android:duration="3500"
