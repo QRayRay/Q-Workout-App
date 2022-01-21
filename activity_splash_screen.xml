@@ -8,17 +8,37 @@
     android:background="@drawable/homescreen"
     tools:context=".SplashScreen">
 
+    <ImageView
+        android:id="@+id/appsplash"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginEnd="100dp"
+        android:contentDescription="@string/font_image_icon"
+        app:srcCompat="?android:attr/textSelectHandle" />
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="164dp"
-        android:layout_marginBottom="-71dp"
-        app:srcCompat="?android:attr/textSelectHandle"
-        app:tint="@color/colorAccent"
-        
+        android:text="@string/q_workout_app"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp" />
 
-        />
+
+
+
+
 
 </RelativeLayout>
