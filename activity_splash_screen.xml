@@ -7,7 +7,9 @@
     android:layout_alignParentTop="true"
     android:background="@drawable/homescreen"
     tools:context=".SplashScreen">
+    
 // added new splams icon image to start screen of the app. Need to now add animation for start up.
+    
     <ImageView
         android:id="@+id/appsplash"
         android:layout_width="135dp"
