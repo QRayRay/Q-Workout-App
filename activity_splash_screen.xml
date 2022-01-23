@@ -8,7 +8,7 @@
     android:background="@drawable/homescreen"
     tools:context=".SplashScreen">
     
-// added new splams icon image to start screen of the app. Need to now add animation for start up.
+// added new spalsh icon to splash page but i am removing the animation style to replace it with a smoother transistion to main activity. 
     
     <ImageView
         android:id="@+id/appsplash"
