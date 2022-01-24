@@ -9,11 +9,7 @@
 
 <alpha
 
-    android:duration="3500"
-    android:fromAlpha="0.1"
-    android:toAplha="1.0"
-
-    />
+  
 
 
 
